@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tutedude Assignment 01</title>
+</head>
+<body>
+  <header>
+    <!-- Welcome Heading -->
+  <h1>Welcome to <mark>TuteDude</mark></h1>
+  
+    <!-- Short Description -->
+  <p>A project designed by <strong><em>TuteDude</em></strong> to Learn HTML</p>
+  
+  <!-- Navigation Menu -->
+  <nav>
+  <ul>
+  <li><a href="#AboutTuteDude">About TuteDude </a></li>
+     <li><a href="#OurMenu">Our Menu</a></li>
+     <li><a href="#trivia">Trivia</a></li>
+     <li><a href="#Extras">Extras</a></li>
+     <li><a href="#feedback">Feedback</a></li>
+    <li><a href="#footerArea">Contact</a></li>
+    </ul>
+  </nav>
+<hr>
+  <!-- Hero Image with Caption -->
+  <figure>
+    <img src="TD.jpeg" alt="TuteDude food and drink image" height="300px" width="600px" >
+    <figcaption>TuteDude and a Drink</figcaption>
+  </figure>
+</header>
+<hr>
+
+    <!---Main tags start here....-->
+<main>
+<section id="AboutTuteDude">
+<article >
+    
+    <h2><u>About TuteDude</u></h2>
+    <p>
+        <strong>TuteDude</strong> is a modern online learning platform where students can easily learn 
+        <abbr title="HyperText Markup Language">HTML</abbr>, CSS, and JavaScript in a simple and practical way.
+    </p>
+
+    <p>It was launched on <time datetime="2023-01-01">January 2023</time>, and since then it has become a popular platform for learning web development skills and other.
+    </p>
+
+    <blockquote>
+        "Learning to code is not hard, it just needs consistency and practice."
+        <br>
+        <cite>— TuteDude Team</cite>
+    </blockquote>
+
+    <p>
+        <strong>Tute Dude</strong> focuses on providing easy, practical, and project-based learning experiences for beginners.
+    </p>
+</article>
+</section>
+<hr>
+
+<section id="OurMenu">
+    
+<h2><u>Our Menu</u></h2>
+
+<!--Table Menu-->
+
+<h2>TuteDude Complete Menu</h2>
+
+<table border="1">
+        <thead>
+    <tr>
+        <th rowspan="2">Category</th>
+        <th rowspan="2">Type</th>
+        <th colspan="2">Small Portion</th>
+        <th colspan="2">Large Portion</th>
+    </tr>
+    
+    <tr>
+        <th>Qty</th>
+        <th>Price</th>
+        <th>Qty</th>
+        <th>Price</th>
+    </tr>
+    </thead>
+<tbody>
+   
+    <tr>
+        <td rowspan="3"><b>TuteDude</b></td>
+        <td>Crunchy (Mutton)</td>
+        <td>1</td>
+        <td>$1.50</td>
+        <td>3</td>
+        <td>$3.25</td>
+    </tr>
+    <tr>
+        <td>Crunchy (Chicken)</td>
+        <td>1</td>
+        <td>$1.75</td>
+        <td>3</td>
+        <td>$3.50</td>
+    </tr>
+    <tr>
+        <td>
+            Crunchy (Veggie)<br><i>Nutrition Info</i>
+            <table border="2">
+                <tr>
+                    <th>Nutrient</th>
+                    <th>Value</th>
+                </tr>
+                <tr>
+                    <td>Calories</td>
+                    <td>150 kcal</td>
+                </tr>
+                <tr>
+                    <td>Protein</td>
+                    <td>5 g</td>
+                </tr>
+                <tr>
+                    <td>Fiber</td>
+                    <td>4 g</td>
+                </tr>
+            </table>
+        </td>
+        <td>1</td>
+        <td>$1.25</td>
+        <td>3</td>
+        <td>$3.00</td>
+    </tr>
+
+    <!-- Soft TuteDude -->
+    <tr>
+        <td rowspan="2"><b>Soft TuteDude</b></td>
+        <td>Soft (Mutton)</td>
+        <td>2</td>
+        <td>$3.50</td>
+        <td>4</td>
+        <td>$6.50</td>
+    </tr>
+    <tr>
+        <td>Soft (Veggie)</td>
+        <td>2</td>
+        <td>$3.00</td>
+        <td>4</td>
+        <td>$5.50</td>
+    </tr>
+
+    <!-- Combos -->
+    <tr>
+        <td rowspan="2"><b>Combos</b></td>
+        <td>2 Crunchy + Drink</td>
+        <td colspan="2">$4.50</td>
+        <td colspan="2" rowspan="2">N/A</td>
+    </tr>
+    <tr>
+        <td>
+            2 Soft + Drink<br>
+            <i>Combo Meals Nutrition Facts</i>
+            <table border="2">
+                <tr>
+                    <th>Item</th>
+                    <th>Calories</th>
+                    <th>Sugar</th>
+                </tr>
+                <tr>
+                    <td>Soft Taco</td>
+                    <td>200 kcal</td>
+                    <td>2 g</td>
+                </tr>
+                <tr>
+                    <td>Drink</td>
+                    <td>120 kcal</td>
+                    <td>25 g</td>
+                </tr>
+                <tr>
+                    <td><b>Total</b></td>
+                    <td><b>320 kcal</b></td>
+                    <td><b>27 g</b></td>
+                </tr>
+            </table>
+        </td>
+        <td colspan="2">$5.00</td>
+    </tr>
+
+    <!-- Extras -->
+    <tr >
+        <td rowspan="2"><b>Extras</b></td>
+        <td>Chips & Salsa</td>
+        <td colspan="4">$2.00</td>
+    </tr>
+    <tr>
+        <td>Guacamole</td>
+        <td colspan="4">$1.50</td>
+    </tr>
+
+</tbody>
+    <!-- Footer -->
+    <tfoot>
+    <tr>
+        <td colspan="6"><b>Average Meal Price Range: $2.00 – $6.50</b></td>
+    </tr>
+</tfoot>
+</table>
+</section>
+
+<hr>
+<section id="trivia">
+<aside>
+    <h2 ><u>Trivia</u></h2>
+
+    <details>
+        <summary>Did you know?</summary>
+        <p>
+            TuteDude helps beginners learn web development through simple, practical examples and projects.
+        </p>
+    </details>
+
+    <details>
+        <summary>Fun Fact</summary>
+        <p>
+            HTML was created by Tim Berners-Lee in 1991 and is the foundation of all web pages.
+        </p>
+    </details>
+
+    <details >
+        <summary>Extra Tip</summary>
+        <p>
+            Practice daily and build small projects to become strong in HTML, CSS, and JavaScript.
+        </p>
+    </details>
+</aside>
+</section>
+
+<hr>
+<section id="Extras">
+<h2>Media</h2>
+<h4>Listen to Music</h4>
+<audio controls>
+    <source src="AW.mp3" type="audio/mpeg">
+</audio>
+
+<h4>Watch TuteDude Video</h4>
+<video controls width="500" height="300">
+  <source src="TD.mp4" type="video/mp4">
+</video>
+</section>
+
+</main>
+<hr>
+
+<section id="feedback">
+    <h1 ><u>Give Us Your Feedback</u></h1>
+<form action="">
+<fieldset>
+    <legend>
+    Your Information
+    </legend>
+
+  <label for="fullname">Full Name :-</label>
+  <input type="text" name="fullname" placeholder="Enter Your Full Name" id="fullname">
+  
+  <br> <br>
+  
+  <label for="email-id">Email Id :- </label>
+  <input type="email" name="email-id" placeholder="Please Enter Your email ID" id="email-id">
+  <br> <br>
+<label for="course">Choose Course :- </label>
+<select id="course" name="course">
+    <option>--Select--</option>
+   <option>HTML</option>
+   <option>CSS</option>
+   <option>JS</option>
+ </select>
+ 
+  <br><br>
+  Your Message
+  <br>
+ <textarea name="yourMessage" id="yourMessage" cols="30" rows="3"></textarea>
+ <br>
+ <button type="submit">Submit</button>
+</section>
+  </fieldset>
+</form>
+
+
+<footer id="footerArea">
+ 
+ <h1><u>Contact Us</u></h1>
+<label>TuteDude</label>
+<br>
+<label>support@tutedude.com</label>
+<br>
+<label>+918570818694</label>
+<address>
+ <h3>Registered Office</h3>
+AltF, Orchid Business Park,
+Near Subhash Chowk
+Sector 48, Gurugram,
+Haryana, 122004
+</address>
+
+<p>
+©<time datetime="2026">2026</time> TuteDude.All rights reserved</p>
+
+</footer>
+
+
+</body>
+
+</html>
